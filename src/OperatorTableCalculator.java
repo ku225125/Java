@@ -13,7 +13,7 @@ public class OperatorTableCalculator {
         double sum = first + second;
         double difference = first - second;
         double product = first*second;
-        String quotientText = canDivide? String.valueOf((long)first/second) : "나눌 수 없음";
+        String quotientText = canDivide? String.valueOf(first/second) : "나눌 수 없음";
         String remainderText = canDivide? String.valueOf(first%second) : "나눌 수 없음";
 
         boolean sameValues = first == second;
