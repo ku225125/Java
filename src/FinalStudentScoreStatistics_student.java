@@ -29,7 +29,7 @@ public class FinalStudentScoreStatistics_student {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("===== 학생 성적 통계 =====");
-        System.out.println("학생 수: ");
+        System.out.print("학생 수: ");
         int studentCount = scanner.nextInt();
 
         if (studentCount <= 0) {

@@ -47,7 +47,7 @@ public class FinalOrderKiosk_student {
             System.out.println("3. 생수 1,000원");
             System.out.println("4. 결제");
             System.out.println("0. 주문 취소");
-            System.out.println("메뉴를 선택하세요: ");
+            System.out.print("메뉴를 선택하세요: ");
 
             int menu = scanner.nextInt();
 
