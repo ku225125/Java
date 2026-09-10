@@ -35,7 +35,7 @@ public class FinalNumberGuessingGame_student {
         int attempts = 0;
 
         System.out.println("===== 숫자 맞히기 게임 =====");
-        System.out.println("컴퓨터가 1부터 100 사이의 숫자를 정했습니다.");
+        System.out.print("컴퓨터가 1부터 100 사이의 숫자를 정했습니다.");
 
         while (true) {
             System.out.print("숫자 입력(1~100): ");

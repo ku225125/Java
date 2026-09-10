@@ -31,9 +31,9 @@ public class FinalMultiplicationTable_student {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("===== 원하는 범위의 구구단 =====");
-        System.out.print("시작 단(2~9): ");
+        System.out.println("시작 단(2~9): ");
         int startDan = scanner.nextInt();
-        System.out.print("끝 단(2~9): ");
+        System.out.println("끝 단(2~9): ");
         int endDan = scanner.nextInt();
 
         // TODO 1: 위의 입력 규칙을 만족하지 않는 경우를 하나의 조건식으로 작성한다.
