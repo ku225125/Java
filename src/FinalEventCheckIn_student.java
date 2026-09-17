@@ -30,7 +30,7 @@ public class FinalEventCheckIn_student {
 
                     // TODO 1. 빈 학번이나 빈 이름은 거절하세요.
                     if(studentId.isEmpty() || name.isEmpty()){
-                        System.out.println("이름과 학번둘다 적으세요.");
+                        System.out.println("이름과 학번 둘 다 적으세요.");
                         break;
                     }
                     // TODO 2. 같은 학번이 이미 있는지 배열 전체를 확인하세요.
@@ -53,18 +53,16 @@ public class FinalEventCheckIn_student {
                              break;
                         }
                     }
+                    // TODO 4. 다섯 칸이 모두 찼다면 정원 마감을 출력하세요.
+                   if(emptyIndex == -1){
+                       System.out.println("정원 마감");
+                       continue;
+                   }
                     StudentEntry newEntry = new StudentEntry();
                     newEntry.studentId = studentId;
                     newEntry.name = name;
                     entries[emptyIndex] = newEntry;
                     System.out.println(name + "학생의 신청이 완료");
-
-                    // TODO 4. 다섯 칸이 모두 찼다면 정원 마감을 출력하세요.
-                   if(emptyIndex == -1){
-                       System.out.println("정원 마감");
-                       break;
-                   }
-                    break;
 
                 case "2":
                     // TODO 5. null을 건너뛰며 위치, 학번, 이름을 출력하세요.
